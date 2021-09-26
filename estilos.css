@@ -10,7 +10,7 @@ main{
 
 /* Configuraciones para el header de todas las páginas */
 header{
-    background-color: #000000;
+    background-color: #212529;
     box-sizing: border-box;
     width: 100vw;
     height: 13vh;
@@ -21,22 +21,15 @@ h1{
     color: white;
     position: absolute;
     top: 1vh;
-    left: 40vw;
+    left: 35vw;
 }
 
-nav a{
-    background-color: #7f7f7f;
-    color: white;
-    display: inline-block;
-    box-sizing: border-box;
-    height: 1.2rem;
-    width: 5rem;
+.navbar{
+    top: 50%;
+}
+
+.nav-link, .navbar-brand{
     position: relative;
-    margin: 1rem 0.5rem;
-    border-radius: 5%;
-    text-align: center;
-    text-decoration: none;
-    top: 6vh;
     left: 25vw;
 }
 
@@ -66,7 +59,7 @@ h2{
 .sopaTitulo{
     position: absolute;
     top: 15vh;
-    left: 40vw;
+    left: 32.5vw;
 }
 
 .sopaFoto{
@@ -133,7 +126,7 @@ main > img{
 /* Configuración para el footer */
 footer{
     color: white;
-    background-color: #000000;
+    background-color: #212529;
     text-align: center;
     padding: 1%;
     box-sizing: border-box;
