@@ -104,6 +104,12 @@ main div form div{
     left: 12.5vw;
 }
 
+.formulario h2{
+    position: relative;
+    left: 28.25vw;
+    top: 0;
+}
+
 /* Imágenes de la página "Nuestros clientes" */
 
 main > img{
