@@ -11,26 +11,16 @@ main{
 /* Configuraciones para el header de todas las páginas */
 header{
     background-color: #212529;
-    box-sizing: border-box;
-    width: 100vw;
-    height: 13vh;
 }
 
 h1{
     text-align: center;
     color: white;
-    position: absolute;
-    top: 1vh;
-    left: 35vw;
-}
-
-.navbar{
-    top: 50%;
 }
 
 .nav-link, .navbar-brand{
     position: relative;
-    left: 25vw;
+    left: 30vw;
 }
 
 /* Configuración del body de la página Acerca de.... */
@@ -57,9 +47,9 @@ h2{
 
 /* Receta principal en el index.html */
 .sopaTitulo{
-    position: absolute;
-    top: 15vh;
-    left: 32.5vw;
+    position: relative;
+    top: 3vh;
+    left: 35vw;
 }
 
 .sopaFoto{
@@ -146,23 +136,12 @@ footer{
 @media screen and (max-width: 500px){
     /* Header */
     header{
-       height: 55vh;
+        background-color: #212529;
     }
-
-    nav > a{
-        display: block;
-        width: 100vw;
-        height: 7vh;
-        margin: 0.5vh 0;
-        border-radius: 0;
-        top: 7vh;
-        left: 0;
-    }
-
-    h1{
-        position: absolute;
-        top: 1vh;
-        left: 25vw;
+    
+    .nav-link, .navbar-brand{
+        position: relative;
+        left: 40vw;
     }
     
     /* Imágenes de la página "Nuestros clientes" */
@@ -190,8 +169,7 @@ footer{
     }
 
     .sopaTitulo{
-        top: 60vh;
-        left: 25vw;
+        left: 20vw;
     }
     
     .sopaFoto{
