@@ -31,12 +31,36 @@
     </header>
 
     <main>
-        <img src="Imágenes/negocio1.jpg" alt="negocio comida 1">
-        <img src="Imágenes/negocio2.jpg" alt="negocio comida 2">
-        <img src="Imágenes/negocio3.jpg" alt="negocio comida 3">
-        <img src="Imágenes/negocio4.jpg" alt="negocio comida 4">
-        <img src="Imágenes/negocio5.jpg" alt="negocio comida 5">
-        <img src="Imágenes/negocio6.jpg" alt="negocio comida 6">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imágenes/negocio1.jpg" class="d-block w-100" alt="negocio comida 1">
+              </div>
+              <div class="carousel-item">
+                <img src="Imágenes/negocio2.jpg" class="d-block w-100" alt="negocio comida 2">
+              </div>
+              <div class="carousel-item">
+                <img src="Imágenes/negocio3.jpg" class="d-block w-100" alt="negocio comida 3">
+              </div>
+              <div class="carousel-item">
+                <img src="Imágenes/negocio4.jpg" class="d-block w-100" alt="negocio comida 4">
+              </div>
+              <div class="carousel-item">
+                <img src="Imágenes/negocio5.jpg" class="d-block w-100" alt="negocio comida 5">
+              </div>
+              <div class="carousel-item">
+                <img src="Imágenes/negocio6.jpg" class="d-block w-100" alt="negocio comida 6">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
 
     <footer>
