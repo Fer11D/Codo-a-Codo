@@ -26,14 +26,16 @@ h1{
 /* Configuración del body de la página Acerca de.... */
 
 h2{
-    position: absolute;
+    position: relative;
     left: 45vw;
-    top: 15vh;
+    top: 3vh;
 }
 
 .cocinando{
+    height: 60vh;
+    width: 70vw;
     position: relative;
-    left: 32.5vw;
+    left: 12.5vw;
     top: 8vh;
 }
 
@@ -57,7 +59,7 @@ h2{
     height: 30vh;
     position: relative;
     top: 7vh;
-    left: 33vw;
+    left: 34vw;
 }
 
 .sopaReceta{
@@ -134,9 +136,8 @@ footer{
     box-sizing: border-box;
     width: 100vw;
     height: 8vh;
-    position: absolute;
-    left: 0%;
-    top: 130vh;
+    position: relative;
+    bottom: -40vh;
 }
 
 .links{
@@ -172,12 +173,15 @@ footer{
     /* Configuración del body de la página Acerca de.... */
 
     h2{
-        left: 40vw;
-        top: 57vh;
+        left: 35vw;
+        top: 3vh;
     }
-
+    
     .cocinando{
-        left: 3vw;
+        height: 50vh;
+        width: 90vw;
+        left: 5vw;
+        top: 5vh;
     }
 
     .sobrenosotros{
@@ -217,7 +221,8 @@ footer{
 
     /* Footer */
     footer{
-        top: 280vh;
+        bottom: 0vh;
+        top: 10vh;
     }
 
 
