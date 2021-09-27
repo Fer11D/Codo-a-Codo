@@ -89,8 +89,20 @@ main div form div{
 
 .formulario h2{
     position: relative;
-    left: 28.25vw;
+    left: 24.25vw;
     top: 0;
+}
+
+.enviar{
+    background-color: #3e9eff;
+    color: white;
+    width: 7vw;
+    height: 5vh;
+    border: #3e9eff 2px dotted;
+    border-radius: 12%;
+    position: relative;
+    left: 35vw;
+    top: -.5vh;
 }
 
 /* Imágenes de la página "Nuestros clientes" */
@@ -152,7 +164,10 @@ footer{
         top: 5vh;
     }
 
-    /* FALTA CAMBIAR LA POSICION DE LOS BOTONES DE NAVEGACION DEL CARRUSEL, ESTAN MUY BAJOS */
+    .carousel-control-prev, .carousel-control-next{
+        top: 10vh;
+        height: 25vh;
+    }
 
     /* Configuración del body de la página Acerca de.... */
 
@@ -184,7 +199,12 @@ footer{
     .formulario h2{
         position: absolute;
         top: -5vh;
-        left: 15vw;
+        left: 10vw;
+    }
+
+    .enviar{
+        width: 15vw;
+        left: 30vw;
     }
 
     /* Configuración para sección sucursales */
